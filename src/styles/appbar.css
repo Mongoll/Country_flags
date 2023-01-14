@@ -1,0 +1,54 @@
+.appbar__content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appbar__content-left,
+.appbar__content-search,
+.appbar__content-right {
+  display: inline-block;
+  margin: 10px;
+}
+
+.appbar__content-left img {
+  height: 32px;
+}
+
+/* .appbar__content-search {
+  
+  
+} */
+
+.appbar__content-right {
+  display: flex;
+  align-items: center;
+}
+
+.appbar__content-right svg.MuiSvgIcon-root {
+  font-size: 2.6rem;
+  color: #15181f;
+}
+
+.appbar__content-cart {
+  display: flex;
+  align-items: center;
+}
+
+.appbar__content-cart-counter {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  background-color: #898b8e;
+  color: #dbffff;
+  border-radius: 50%;
+  position: relative;
+  left: -16px;
+  top: -10px;
+}
+.active {
+  background-color: #3d89e9;
+}
